@@ -15,8 +15,8 @@
         </Grid.ColumnDefinitions>
         
         <ListBox Grid.Column="0"
-            ItemsSource="{Binding employee}"
-            SelectedItem="{Binding selectedEmployee}"
+            ItemsSource="{Binding ingredients}"
+            SelectedItem="{Binding selectedIngredient}"
             SelectionChanged="LBIngeddients_SelectionChanged"
             Name="LBIngeddients">
             <ListBox.ItemTemplate>

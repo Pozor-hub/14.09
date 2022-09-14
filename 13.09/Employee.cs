@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _13._09
 {
-    public class Ingredient
+    public class Ingredient : INotifyPropertyChanged
     {
         public Ingredient( string name,  int price)
         {
